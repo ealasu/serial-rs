@@ -29,6 +29,10 @@ ioctl-rs = "0.1.5"
 termios = "0.2.2"
 ioctl-rs = "0.1.5"
 
+[target.armv7-unknown-linux-musleabihf.dependencies]
+termios = "0.2.2"
+ioctl-rs = "0.1.5"
+
 [target.i686-apple-darwin.dependencies]
 termios = "0.2.2"
 ioctl-rs = "0.1.5"
